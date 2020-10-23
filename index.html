@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Campo Minado</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="imagem/png" href="bomb.png" />
+</head>
+<body oncontextmenu="return false">
+<header id="inicio">
+ <h1>Campo Minado</h1>
+</header>
+<div id="button">
+    <div onclick="campo(20,20,40);" class="bloco">Fácil</div>
+    <div onclick="campo(25,25,80);" class="bloco">Médio</div>
+    <div onclick="campo(28,28,120);" class="bloco">Díficil</div>
+    <div onclick="personalizado();" class="bloco">Personalizado</div>
+<div id="personalizados">
+    <input type="text" class="campo" id="campin" placeholder="linhas">
+    <input type="text" class="campo" id="campon" placeholder="colunas">
+    <input type="text" class="campo" id="campen" placeholder="bombas">
+    <input type="submit" value="Enviar" class="campo" id="campun" onclick="personaliza();">
+</div>
+</div>
+<div>
+<div id="cronometro">00:00</div>
+<div id="cont"><img src="bandeira.png" width="30px" height="30px"><a id="cont1">40</a></div>
+<script src="java.js"></script>
+<table id="jogo">
+    <script>campo(20,20,40);</script>
+</table></div>
+
+</body>
+
+</html>

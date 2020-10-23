@@ -1,0 +1,292 @@
+.click{
+	background-color: lightgray;
+}
+.usado{
+	background-color: lightgray;
+}
+.campo{
+	display: none;
+	padding:4px;
+	border:none;
+	width:8%;
+}
+.campoa{
+	padding:4px;
+	border:none;
+	width:8%;
+	background-color: white;
+	font-family: 'Century Gothic',serif;
+}
+td{
+	font-family: cursive;
+	text-align: center;
+	color: black;
+	height: 23px;
+	width: 23px;
+	background-color: white;
+	border-radius: 2px;
+}
+html{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#personalizados{
+	display: none;
+
+}
+td:hover{
+	background-color: gray;
+}
+#inicio{
+	color: white;
+	font-size: 2em;
+	box-shadow: 2px 2px 2px black;
+	text-align: center;
+	background-color:black;
+	width: 100%;
+	font-family: 'Century Gothic',serif;
+	margin-top:-5.5%;
+	height: 20vh;
+}
+header h1{
+	padding-top:1.5%;
+}
+#jogo{
+	margin: -35px auto;
+}
+.bomba{
+	background-image: url("bomb.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: lightgray;
+}
+.bandeira{
+	background-color: lightgray;
+	background-image: url("bandeira.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#cronometro{
+	text-align: center;
+	font-size: 30px;
+	width: 8%;
+	margin-top: 30px;
+	margin-left: 83%;
+	color: white;
+	font-family: 'Century Gothic', serif;
+	border-bottom: 1px solid white;
+}
+#cont{
+	text-align: center;
+	font-size: 30px;
+	border-radius: 10px;
+	width: 8%;
+	height: 6vh;
+	margin-left: 11%;
+	color: black;
+	font-family: 'Century Gothic', serif;
+	background-color: rgba(255,255,255,1);
+	padding-top: 0.8%;
+	margin-top: 1%;
+	position: absolute;
+	margin-left: 83%;
+}
+body{
+	cursor: default;
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+	background-attachment: fixed;
+	margin:0;
+	padding:0;
+	background-color:  #262928;
+}
+#button{
+	text-align: center;
+	margin-top:-3%;
+}
+#button div{
+	font-size: 1.5em;
+	margin-left: 2%;
+	text-align: center;
+	border: none;
+	display: inline;
+	color: white;
+	border-bottom: 3px solid white;
+	font-family: 'Century Gothic',serif;
+	cursor: pointer;
+	margin-top:-10%;
+}
+.bloco{
+	margin-left: 3%;
+}
+#button div:hover{
+	color: gray;
+	border-bottom: 3px solid white;
+}
+@media only screen and (max-width: 375px) {
+    #inicio{
+    	font-size: 1em;
+    	height: 60vh;
+    }
+    #button{
+    	margin-top: -100%;
+    	font-size: 1em;
+    	position: absolute;
+    }
+    .campoa{
+    	margin-top: 10%;
+    	width: 15%;
+    }
+    #cont{
+    	margin-top: -40%;
+    	width: 25%;
+    	margin-left: 10%;
+    }
+    #cronometro{
+    	position: absolute;
+    	margin-top: -40%;
+    	margin-left: 60%;
+    	width: 30%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    #inicio{
+    	font-size: 1.5em;
+    	height: 60vh;
+    }
+    #button{
+    	margin-top: -70%;
+    	font-size: 1.2em;
+    	position: absolute;
+    }
+    .campoa{
+    	margin-top: 10%;
+    	width: 15%;
+    }
+    #cont{
+    	margin-top: -20%;
+    	width: 25%;
+    	margin-left: 10%;
+    }
+    #cronometro{
+    	position: absolute;
+    	margin-top: -20%;
+    	margin-left: 60%;
+    	width: 30%;
+    }
+ }
+ @media only screen and (max-width: 510px) {
+    #inicio{
+    	font-size: 1.5em;
+    	height: 60vh;
+    }
+    #button{
+    	margin-top: -70%;
+    	font-size: 1.2em;
+    	position: absolute;
+    }
+    .campoa{
+    	margin-top: 10%;
+    	width: 15%;
+    }
+    #cont{
+    	margin-top: -20%;
+    	width: 25%;
+    	margin-left: 10%;
+    }
+    #cronometro{
+    	position: absolute;
+    	margin-top: -20%;
+    	margin-left: 60%;
+    	width: 30%;
+    }
+ }
+  @media only screen and (max-width: 600px) {
+    #inicio{
+    	font-size: 1.5em;
+    	height: 60vh;
+    }
+    #button{
+    	margin-top: -50%;
+    	font-size: 1.2em;
+    	position: absolute;
+    	margin-left: 8%;
+    }
+    .campoa{
+    	margin-top: 10%;
+    	width: 15%;
+    }
+    #cont{
+    	margin-top: -20%;
+    	width: 25%;
+    	margin-left: 10%;
+    }
+    #cronometro{
+    	position: absolute;
+    	margin-top: -20%;
+    	margin-left: 60%;
+    	width: 30%;
+    }
+ }
+  @media only screen and (max-width: 700px) {
+    #inicio{
+    	font-size: 1.5em;
+    	height: 60vh;
+    }
+    #button{
+    	margin-top: -50%;
+    	font-size: 0.8em;
+    	position: absolute;
+    	margin-left: 15%;
+    	width: 70%;
+    }
+    .campoa{
+    	margin-top: 10%;
+    	width: 15%;
+    }
+    #cont{
+    	margin-top: -20%;
+    	width: 25%;
+    	margin-left: 10%;
+    }
+    #cronometro{
+    	position: absolute;
+    	margin-top: -20%;
+    	margin-left: 60%;
+    	width: 30%;
+    }
+ }
+  @media only screen and (max-width: 800px) {
+    #button{
+    	margin-top: -5%;
+    }
+
+    #cont{
+    	margin-left: 90%;
+    }
+    #cronometro{
+    	margin-left: 90%;
+    }
+ }
+   @media only screen and (max-width: 900px) {
+    #button{
+    	margin-top: -5%;
+    }
+}
+    @media only screen and (max-width: 1000px) {
+    #button{
+    	margin-top: -5%;
+    }
+ }
+  @media only screen and (max-width: 1100px) {
+    #button{
+    	margin-top: -4%;
+    }
+ }
